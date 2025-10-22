@@ -64,6 +64,7 @@
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
+  background-color: #f2f2f2;
 }
 
 @keyframes fade {
@@ -75,6 +76,7 @@
   position:relative;
   width: 40%;
   margin: auto;
+
 }
 
 .image-container img.absImg {
@@ -87,7 +89,7 @@
   position: absolute;
   top: 10px;
   left: 10px;
-  background-color: white;
+  background-color: #f2f2f2;
   color: black;
   padding: 5px 10px;
   font-size: 18px;
@@ -95,18 +97,8 @@
 }
 
 .captiontext {
-  /* position: absolute;
-  font-size: 15px;
-  background-color: rgb(228, 229, 233);
-  padding: 10px 10x;
-  bottom: 10px;
-  width: 100%;
-  text-align: center;
-  display: inline-block;
-  border-radius: 3px; */
-
   position: absolute;
-  bottom: 10px;
+  bottom: 20px;
   left: 0;
   right: 0;
   width: fit-content;
@@ -136,7 +128,7 @@
 }
 
 .next {
-  right: 0;
+  right: 22px;
   border-radius: 3px 0 0 3px;
 }
 
