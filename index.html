@@ -3,7 +3,8 @@
 <!--  
     1. nav bar is well designed and responsive
     2. Change the base nav bar color, hover color, & active color
-    3. 3 customized styles (add a fullscreen video, side navigation, image hover overlay, outline buttons)
+    3. 3 customized styles (add a fullscreen video, side navigation, image hover overlay, outline buttons) 
+        - split nav, slideshow w/fade, 
     4. multimedia element(vid or image)
     5. 
 -->
@@ -54,7 +55,35 @@
         <!-- Displaying the course cover image in a scaled size -->
         <!-- Here is the course cover image in a scaled size: -->
         <br>
-        <img src="img/animal-egg-x7O64d1-600.jpg" style="width: 40%; height: auto;" class = "absImg">
+        <div>
+
+            <div class="slideshow fade">
+                <div class="image-container">
+                    <div class="numberText"> 1 / 3</div>
+                    <img src="img/animal-egg-x7O64d1-600.jpg" style="width: 50%; height: auto;" class = "absImg">
+                    <div class="captiontext"> Picture of an egg in its shell</div>
+                </div>
+            </div>
+
+            <div class = "slideshow fade">
+                <div class = "image-container">
+                    <div class = "numberText"> 2 / 3 </div>
+                    <img src="img/Brown-eggs.webp" style="width: 50%; height: auto;" class = "absImg">
+                    <div class = "captiontext"> Eggs in a basket</div>
+                </div>
+            </div>
+
+            <div class = "slideshow fade">
+                <div class = "image-container">
+                    <div class = "numberText"> 3 / 3 </div>
+                    <img src="img/GettyImages-2192858873-6ff0241a5dd84ddb8b0eea70c5dadef5.jpg" style="width: 50%; height: auto;" class = "absImg">
+                    <div class = "captiontext"> Sunnyside up eggs</div>
+                </div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)"> &lt;</a>
+            <a class="next" onclick="plusSlides(1)"> &gt;</a>
+        </div>
         <br>
         <br>
  
