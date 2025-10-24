@@ -138,7 +138,7 @@
 }
 
 /* When the screen is less than 800 pixels wide */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1090px) {
   /* Hide all links, except for the selected tab */
   .topnav a:not(.active) {
     display: none;
@@ -154,12 +154,37 @@
     float: left;
   }
 }
+/* card styling for the cuisines */
+.cardContainer {
+  display: flex;
+  justify-content: space-around;
+}
 
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 20%;
+  transition: 0.5s;
+  background-color:#f2f2f2;
+}
+
+.card:hover {
+  box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2);
+}
+
+
+
+.detailsContainer {
+  padding: 10px;
+}
+
+.detailsContainer p {
+  font-size: 20px;
+}
 /* When the screen is less than 800 pixels wide, if the user clicks on the icon */
 /* the "responsive" class attribute will be added to the topnav by the JavaScript code */
 /* This media query sets the style for the unfolded topnav */
 /* It makes the topnav look good on small screens (display the links vertically instead of horizontally)  */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1090px) {
   .topnav.responsive {
     position: relative;
   }
